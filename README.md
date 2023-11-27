@@ -1,4 +1,5 @@
 Bloc de Notas avanzado
+
 Este es un proyecto de Bloc de Notas avanzado desarrollado en C++ utilizando la biblioteca de interfaz gráfica Qt. A continuación, se presenta una descripción general del proyecto y cómo utilizar algunas de sus características.
 
 Características principales
