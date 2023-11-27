@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Bloc de notas</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QTextEdit" name="textEdit"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMen">
+    <property name="title">
+     <string>Menú</string>
+    </property>
+    <addaction name="actionAbrir"/>
+    <addaction name="actionGuardar_como"/>
+    <addaction name="actionGuardar"/>
+    <addaction name="actionImprimir"/>
+    <addaction name="actionEliminar"/>
+   </widget>
+   <widget class="QMenu" name="menuEditar">
+    <property name="title">
+     <string>Editar</string>
+    </property>
+    <addaction name="actionCopiar"/>
+    <addaction name="actionPegar"/>
+    <addaction name="actionCortar"/>
+   </widget>
+   <widget class="QMenu" name="menuTexto">
+    <property name="title">
+     <string>Texto</string>
+    </property>
+    <addaction name="actionNegrilla"/>
+    <addaction name="actionCursiva"/>
+    <addaction name="actionFuente"/>
+    <addaction name="actionResaltado"/>
+    <addaction name="actionSubrayado"/>
+    <addaction name="actionColor"/>
+    <addaction name="actionTama_o"/>
+   </widget>
+   <widget class="QMenu" name="menuAlineado">
+    <property name="title">
+     <string>Alineado</string>
+    </property>
+    <addaction name="actionAlineado_izquierda"/>
+    <addaction name="actionAlineado_derecha"/>
+    <addaction name="actionAlineado_centro"/>
+    <addaction name="actionAlineado_justificado"/>
+   </widget>
+   <addaction name="menuMen"/>
+   <addaction name="menuEditar"/>
+   <addaction name="menuTexto"/>
+   <addaction name="menuAlineado"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>BottomToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <action name="actionAbrir">
+   <property name="text">
+    <string>Abrir</string>
+   </property>
+  </action>
+  <action name="actionGuardar_como">
+   <property name="text">
+    <string>Guardar como</string>
+   </property>
+  </action>
+  <action name="actionGuardar">
+   <property name="text">
+    <string>Guardar</string>
+   </property>
+  </action>
+  <action name="actionImprimir">
+   <property name="text">
+    <string>Imprimir</string>
+   </property>
+  </action>
+  <action name="actionEliminar">
+   <property name="text">
+    <string>Eliminar</string>
+   </property>
+  </action>
+  <action name="actionCopiar">
+   <property name="text">
+    <string>Copiar</string>
+   </property>
+  </action>
+  <action name="actionPegar">
+   <property name="text">
+    <string>Pegar</string>
+   </property>
+  </action>
+  <action name="actionCortar">
+   <property name="text">
+    <string>Cortar</string>
+   </property>
+  </action>
+  <action name="actionNegrilla">
+   <property name="text">
+    <string>Negrilla</string>
+   </property>
+  </action>
+  <action name="actionCursiva">
+   <property name="text">
+    <string>Cursiva</string>
+   </property>
+  </action>
+  <action name="actionFuente">
+   <property name="text">
+    <string>Fuente</string>
+   </property>
+  </action>
+  <action name="actionResaltado">
+   <property name="text">
+    <string>Resaltado</string>
+   </property>
+  </action>
+  <action name="actionSubrayado">
+   <property name="text">
+    <string>Subrayado</string>
+   </property>
+  </action>
+  <action name="actionColor">
+   <property name="text">
+    <string>Color</string>
+   </property>
+  </action>
+  <action name="actionTama_o">
+   <property name="text">
+    <string>Tamaño</string>
+   </property>
+  </action>
+  <action name="actionDerecha">
+   <property name="text">
+    <string>Derecha</string>
+   </property>
+  </action>
+  <action name="actionIzquierda">
+   <property name="text">
+    <string>Izquierda</string>
+   </property>
+  </action>
+  <action name="actionCentro">
+   <property name="text">
+    <string>Centro</string>
+   </property>
+  </action>
+  <action name="actionJustficado">
+   <property name="text">
+    <string>Justficado</string>
+   </property>
+  </action>
+  <action name="actionAlineado_izquierda">
+   <property name="text">
+    <string>Alineado izquierda</string>
+   </property>
+   <property name="toolTip">
+    <string>Alineado izquierda</string>
+   </property>
+  </action>
+  <action name="actionAlineado_derecha">
+   <property name="text">
+    <string>Alineado derecha</string>
+   </property>
+  </action>
+  <action name="actionAlineado_centro">
+   <property name="text">
+    <string>Alineado centro</string>
+   </property>
+  </action>
+  <action name="actionAlineado_justificado">
+   <property name="text">
+    <string>Alineado justificado</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
